@@ -85,7 +85,7 @@ An animated visualization of the drone navigating through obstacles toward the g
 ![Drone AI Navigation](https://github.com/akhil-singh-jee/Autonomous-Drone-Navigation-Using-Multi-Agent-AI-Orchestrator-System/blob/main/Output.gif)
 
 ---
-## 🔧 Technologies Used  
+## Technologies Used  
 - Python 3  
 - Google Colab / Jupyter Notebook  
 - NumPy  
@@ -146,4 +146,5 @@ os.chdir('/content/drive/MyDrive/autonomous-drone-ai-agent')
 - Project: Autonomous Drone AI Agent System
 - Collab : autonomous-drone-with-ai-navigation-orchestrator.ipynb
 ```
-[View Kaggle Writeup](https://www.kaggle.com/your-writeup-url)
+⚡[View Kaggle Writeup🔗](https://www.kaggle.com/code/akhilsinghjee/autonomous-drone-ai-agent) (5-Day AI Agents Intensive with Google)
+
