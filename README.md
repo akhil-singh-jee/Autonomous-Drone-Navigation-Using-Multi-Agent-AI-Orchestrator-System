@@ -1,10 +1,12 @@
 # Autonomous Drone Navigation with Multi-Agent AI Orchestrator  
 *A fully simulation-based autonomous drone navigation system using coordinated AI agents — no hardware required.*
 
--This project builds a fully autonomous drone navigation system using a multi-agent AI architecture, operating entirely inside a simulation. The agents learn to move from start to goal while avoiding obstacles using imitation learning, evaluation pipelines, and automated reporting. Everything runs in Google Colab or Jupyter Notebook, making it accessible even without drone hardware.
+This project builds a fully autonomous drone navigation system using a multi-agent AI architecture, operating entirely inside a simulation. The agents learn to move from start to goal while avoiding obstacles using imitation learning, evaluation pipelines, and automated reporting. Everything runs in Google Colab, making it accessible even without drone hardware. 
 
 ---
+![Drone AI Navigation](https://github.com/akhil-singh-jee/Autonomous-Drone-Navigation-Using-Multi-Agent-AI-Orchestrator-System/blob/main/Autonomous%20Drone%20Navigation%20Using%20Multi-Agent%20AI%20Orchestrator%20System.png)
 
+---
 ## Problem Statement  
 Traditional drone navigation experiments require:
 - Expensive sensors  
@@ -22,7 +24,7 @@ This results in safer, faster, cheaper drone AI development.
 
 ---
 
-## 🤖 Why Multi-Agent AI?  
+## Why Multi-Agent AI?  
 A multi-agent architecture makes the system modular, scalable, and automated.
 
 | Agent | Role |
@@ -36,8 +38,10 @@ A multi-agent architecture makes the system modular, scalable, and automated.
 This mirrors real autonomous systems where perception, planning, learning, evaluation, and reporting are separated.
 
 ---
+![Drone AI Navigation](https://github.com/akhil-singh-jee/Autonomous-Drone-Navigation-Using-Multi-Agent-AI-Orchestrator-System/blob/main/demo.gif)
 
-## 🏗 Architecture  
+---
+## Architecture  
 The workflow: DataAgent → ModelAgent → EvalAgent → ReportAgent → OrchestratorAgent.
 
 
@@ -52,10 +56,7 @@ The workflow: DataAgent → ModelAgent → EvalAgent → ReportAgent → Orchest
 
 ### 🔹 EvalAgent  
 - Runs 40 simulated evaluation episodes  
-- Tracks:
-  - Success rate  
-  - Collision rate  
-  - Average episode length  
+- Tracks: Success rate, Collision rate, Average episode length.
 
 ### 🔹 ReportAgent  
 Outputs:
@@ -70,18 +71,20 @@ Outputs:
 
 ## 🎥 Demo Output  
 
-### 📄 `outputs/report.txt`  
+### `outputs/report.txt`  
 Contains:
 - Success rate  
-- Collision rate  
+- Collision rate
 - Average path length  
 - Summary of evaluation results  
 
-### 🎞 `outputs/demo.gif`  
-An animated visualization of the drone navigating through obstacles toward the goal.
+### `outputs/demo.gif`  
+An animated visualization of the drone navigating through obstacles toward the goal. 
 
 ---
+![Drone AI Navigation](https://github.com/akhil-singh-jee/Autonomous-Drone-Navigation-Using-Multi-Agent-AI-Orchestrator-System/blob/main/Output.gif)
 
+---
 ## 🔧 Technologies Used  
 - Python 3  
 - Google Colab / Jupyter Notebook  
@@ -98,7 +101,7 @@ Everything runs entirely in simulation, no drone hardware required.
 
 ## 📂 Project Structure  
 
-autonomous-drone-ai-agent/
+```autonomous-drone-ai-agent/
 │
 ├── autonomous-drone-with-ai-navigation-orchestrator.ipynb
 │
@@ -107,11 +110,11 @@ autonomous-drone-ai-agent/
 │ └── demo.gif
 │
 └── README.md
-
+```
 
 ---
 
-## ▶️ How to Run  
+## How to Run  
 
 ### 1. Google Colab
 
@@ -119,11 +122,28 @@ autonomous-drone-ai-agent/
 2. Open Colab → New Notebook  
 3. Mount Drive:
 
+```python
 from google.colab import drive
 drive.mount('/content/drive')
 
 drive.mount('/content/drive')
-Navigate to project directory:
+Navigate to project directory: 
+```
 
+### 4. Navigate to project directory:
+``` import os
+os.chdir('/content/drive/MyDrive/autonomous-drone-ai-agent')
+```
 
+### 5. Open and run the .ipynb file
 
+### 6. Outputs will appear in the outputs/ folder.
+
+---
+
+```### Credits
+- Author: Akhil Singh, @akhilsinghjee
+- Project: Autonomous Drone AI Agent System
+- Collab : autonomous-drone-with-ai-navigation-orchestrator.ipynb
+```
+[View Kaggle Writeup](https://www.kaggle.com/your-writeup-url)
