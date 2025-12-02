@@ -39,6 +39,7 @@ This mirrors real autonomous systems where perception, planning, learning, evalu
 
 ---
 ![Drone AI Navigation](https://github.com/akhil-singh-jee/Autonomous-Drone-Navigation-Using-Multi-Agent-AI-Orchestrator-System/blob/main/demo.gif)
+[![Watch on YouTube]](https://www.youtube.com/shorts/CVovtSo1hvU)
 
 ---
 ## Architecture  
